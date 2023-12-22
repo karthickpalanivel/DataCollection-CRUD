@@ -27,9 +27,9 @@ Step - 2 - new Project in eclipse IDE and extract these files in that project
 Step - 3 - Create a table in mySql for the following data collection or copy paste the below code
 
 --------------------------------------------------------
-create database <tablename>;
+create database tablename;
 
-use <tablename>;
+use tablename;
 
 create table users(
 
