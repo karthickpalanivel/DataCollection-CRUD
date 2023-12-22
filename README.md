@@ -54,7 +54,7 @@ insert into users (NAME, PHONE, CITY, AGE, EMAIL) values
 --------------------------------------------------------  
 
 
-step - 4 - in user.java file under src directory edit your table name in line number 28 or for String URL instead of <tablename> you can insert your table name for connection. 
+step - 4 - in user.java file under src directory edit your table name in line number 28 or for String URL instead of (tablename) you can insert your table name for connection. 
 
 Use Java Eclipse for run the project. You need not to copy the mysql file, instead I already added in your mysql directory.
 
