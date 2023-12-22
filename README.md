@@ -28,17 +28,29 @@ Step - 3 - Create a table in mySql for the following data collection or copy pas
 
 --------------------------------------------------------
 create database <tablename>;
+
 use <tablename>;
+
 create table users(
+
   ID int primary key auto_increment,
+  
   NAME varchar(50),
+  
   PHONE int(10),
+  
   CITY varchar(50),
+  
   AGE int(2),
+  
   EMAIL varchar(30)
+
 );
+
 select * from users;
+
 insert into users (NAME, PHONE, CITY, AGE, EMAIL) values
+
 --------------------------------------------------------  
 
 
