@@ -21,7 +21,9 @@ click the above links or paste the above links in any browsers to download.
 
 
 Step - 1 - Download or clone this repository to your local system
+
 Step - 2 - new Project in eclipse IDE and extract these files in that project
+
 Step - 3 - Create a table in mySql for the following data collection or copy paste the below code
 
 --------------------------------------------------------
@@ -38,6 +40,7 @@ create table users(
 select * from users;
 insert into users (NAME, PHONE, CITY, AGE, EMAIL) values
 --------------------------------------------------------  
+
 
 step - 4 - in user.java file under src directory edit your table name in line number 28 or for String URL instead of <tablename> you can insert your table name for connection. 
 
