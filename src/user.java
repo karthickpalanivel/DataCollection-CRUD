@@ -25,7 +25,7 @@ class UserFrame extends Frame implements ActionListener {
     public void connect() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/()?characterEncoding=utf8";
+            String url = "jdbc:mysql://localhost:3306/<tablename>?characterEncoding=utf8";
             String username = "root";
             String password = "root";
             con = DriverManager.getConnection(url, username, password);
